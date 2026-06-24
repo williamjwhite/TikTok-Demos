@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TikTok Shop Demos</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans antialiased min-h-screen">
+
+<header class="bg-black text-white px-6 py-5 flex items-center space-x-3 shadow-md">
+  <div class="bg-[#FE2C55] p-2 rounded-lg">
+    <i data-lucide="shopping-bag" class="w-6 h-6 text-white"></i>
+  </div>
+  <div>
+    <h1 class="text-xl font-bold tracking-tight">TikTok Shop Demos</h1>
+    <p class="text-xs text-gray-400">Interactive references &amp; tools, built for Customer Solutions Engineering</p>
+  </div>
+</header>
+
+<main class="max-w-5xl mx-auto p-6">
+
+  <!-- Add one card per demo. Copy the <a> block below for each new file you add to the repo. -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+
+    <a href="cse_dashboard.html" class="group block bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:border-[#FE2C55] hover:shadow-md transition-all">
+      <div class="flex items-center justify-between mb-3">
+        <i data-lucide="terminal" class="w-5 h-5 text-[#FE2C55]"></i>
+        <i data-lucide="arrow-up-right" class="w-4 h-4 text-gray-300 group-hover:text-[#FE2C55] transition-colors"></i>
+      </div>
+      <h2 class="text-lg font-bold text-gray-900 mb-1">CSE Command Center</h2>
+      <p class="text-sm text-gray-600">Architecture overview, a mock API request/response console, and an integration map for ERP, WMS, and CRM pipelines.</p>
+    </a>
+
+    <!--
+    <a href="next_demo.html" class="group block bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:border-[#FE2C55] hover:shadow-md transition-all">
+      <div class="flex items-center justify-between mb-3">
+        <i data-lucide="ICON_NAME" class="w-5 h-5 text-[#FE2C55]"></i>
+        <i data-lucide="arrow-up-right" class="w-4 h-4 text-gray-300 group-hover:text-[#FE2C55] transition-colors"></i>
+      </div>
+      <h2 class="text-lg font-bold text-gray-900 mb-1">Demo Title</h2>
+      <p class="text-sm text-gray-600">One or two sentences describing what this demo shows.</p>
+    </a>
+    -->
+
+  </div>
+</main>
+
+<script>lucide.createIcons();</script>
+</body>
+</html>
